@@ -16,7 +16,7 @@ Follow the [wiki for the Ribbon style](https://github.com/shower/shower/wiki/Rib
 * 3 different background for the slide with classes `.red`, `.blue`, `.darkgray`, `.gradient-nightly` (try the demo)
 * Removed inline css
 * Added `.left` and `.right` class
-* Text color based on 
+* Text color based on https://www.mozilla.org/en-US/styleguide/identity/firefox/color/ (try the demo)
 
 ##Difference from CodePo8 Presentation Template
 
