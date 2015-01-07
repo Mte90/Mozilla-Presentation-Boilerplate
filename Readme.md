@@ -24,3 +24,6 @@ Follow the [wiki for the Ribbon style](https://github.com/shower/shower/wiki/Rib
 * Shower updated
 * Missing delete slide button
 
+##Alternative
+
+[Mozilla Theme for Reveal.js](https://github.com/Mte90/mozilla-theme-revealjs/)
