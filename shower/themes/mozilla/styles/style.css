@@ -430,6 +430,7 @@ li {
     color:#FFF;
     text-align:center;
     font-size:50px;
+    text-shadow: none;
 }
 .slide.cover p {
     margin:10px 0 0;
