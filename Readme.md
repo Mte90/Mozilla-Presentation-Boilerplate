@@ -1,4 +1,4 @@
-#Mozilla Presentation Boilerplate
+#Mozilla Presentation Boilerpalte
 Based on [Shower](https://github.com/shower/shower) and [Codepo8 Presentation template](https://github.com/codepo8/mozilla-presentation-templates)
 
 ##How to use
@@ -13,9 +13,10 @@ Follow the [wiki for the Ribbon style](https://github.com/shower/shower/wiki/Rib
 
 * Check the last slide for a frame swing animation (based on codepo8 template)
 * Open Sans Font
-* 3 different background for the slide with classes `.red`, `.blue` and `.darkgray` (try the demo)
+* 3 different background for the slide with classes `.red`, `.blue`, `.darkgray`, `.gradient-nightly` (try the demo)
 * Removed inline css
 * Added `.left` and `.right` class
+* Text color based on 
 
 ##Difference from CodePo8 Presentation Template
 

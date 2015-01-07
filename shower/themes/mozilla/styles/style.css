@@ -838,3 +838,24 @@ li {
     position: relative;
     padding-right: 80px;
 }
+
+/* Color - https://www.mozilla.org/en-US/styleguide/identity/firefox/color/ */
+
+.color-lightblue {
+    color:#0095DD;
+}
+.color-nightlyblue {
+    color:#002147;
+}
+.color-blue {
+    color: #00539F;
+}
+.color-yellow {
+    color: #FFCB00;
+}
+.color-lightorange {
+    color: #FF9500;
+}
+.color-orange {
+    color: #E66000;
+}
