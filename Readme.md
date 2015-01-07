@@ -1,4 +1,4 @@
-#Mozilla Presentation Boilerpalte
+#Mozilla Presentation Boilerplate
 Based on [Shower](https://github.com/shower/shower) and [Codepo8 Presentation template](https://github.com/codepo8/mozilla-presentation-templates)
 
 ##How to use
