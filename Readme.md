@@ -17,6 +17,9 @@ Follow the [wiki for the Ribbon style](https://github.com/shower/shower/wiki/Rib
 * Removed inline css
 * Added `.left` and `.right` class
 * Text color based on https://www.mozilla.org/en-US/styleguide/identity/firefox/color/ (try the demo)
+* `.fullsize` and `.fullsize.stretch` for image
+* `.opacity` background area
+* `.right`, `.left`, `.bottom` and `.center` alignment class
 
 ##Difference from CodePo8 Presentation Template
 

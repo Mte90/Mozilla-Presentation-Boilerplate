@@ -1,8 +1,8 @@
 /*
-	Mozilla theme for Shower presentation template: http://github.com/shower/shower
-	Copyright © 2010–2014 Vadim Makeev, http://pepelsbey.net/
-	Licensed under MIT license: https://github.com/shower/shower/wiki/License
-	Theme by Chris Heilmann http://christianheilmann.com @codepo8
+    Mozilla theme for Shower presentation template: http://github.com/shower/shower
+    Copyright © 2010–2014 Vadim Makeev, http://pepelsbey.net/
+    Licensed under MIT license: https://github.com/shower/shower/wiki/License
+    Theme by Chris Heilmann http://christianheilmann.com @codepo8
 */
 
 
@@ -198,13 +198,13 @@ a {
 }
 
 body:after {
-	position:absolute;
-	top:0;
-	right:10px;
-	width:153px;
-	height:41px;
-	background:url(../images/tab-2.png);
-	content:'';
+    position:absolute;
+    top:0;
+    right:10px;
+    width:153px;
+    height:41px;
+    background:url(../images/tab-2.png);
+    content:'';
 }
 .caption {
     display: none;
@@ -606,7 +606,8 @@ li {
     -ms-transform: scale(4);
     transform: scale(4);
 }
-}ù.list .slide:after {
+}
+.list .slide:after {
     top: auto;
     right: auto;
     bottom: -80px;
@@ -831,13 +832,20 @@ li {
 }
 
 .right {
-    float: right;
-    position: relative;
+    right: 10px;
+    position: absolute;
 }
 .left {
     float: left;
     position: relative;
     padding-right: 80px;
+}
+.bottom {
+    position: absolute;
+    top: 90%;
+}
+.center {
+    text-align:center;
 }
 
 /* Color - https://www.mozilla.org/en-US/styleguide/identity/firefox/color/ */
@@ -859,4 +867,16 @@ li {
 }
 .color-orange {
     color: #E66000;
+}
+
+.opacity {
+    background:rgba(0,0,0,0.5);
+}
+
+img.fullsize {
+    max-width: 100%;
+    height: 100%;
+}
+img.fullsize.stretch {
+    width: 100%;
 }
