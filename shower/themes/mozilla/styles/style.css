@@ -243,26 +243,27 @@ body:after {
 .slide h1, .slide h2 {
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }
-.slide.red {
+
+.red {
     background: url(../images/bg-red-2.png); 
 }
-.slide.blue {
+.blue {
     background: url(../images/bg-blue-2.png); 
 }
-.slide.darkgray {
+.darkgray {
     background: url(../images/bg-darkgrey-2.png); 
 }
-.slide.gradient-nightly {
+.gradient-nightly {
     background: -webkit-linear-gradient(0deg, rgba(0,33,71,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
     background: -ms-linear-gradient(0deg, rgba(0,33,71,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
     background: linear-gradient(0deg, rgba(0,33,71,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
     color:white;
 }
-.slide.gradient-nightly h2, .slide.gradient-nightly a {
+.gradient-nightly h2, .gradient-nightly a {
     color:white;
     text-shadow:none;
 }
-.slide.red a, .slide.blue a, .slide.darkgray a {
+.red a, .blue a, .darkgray a {
     color:#fff;
 }
 @media print {
@@ -558,7 +559,7 @@ li {
     position: absolute;
     clip: rect(0, auto, auto, 0);
     padding: 80px 0 40px 100px;
-    background:#585A5E url(../images/bg-blue-2.png) fixed;
+    background:transparent fixed;
 }
 .list .caption, .list .badge {
     display: block;
