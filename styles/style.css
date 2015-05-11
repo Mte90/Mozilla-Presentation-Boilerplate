@@ -4,9 +4,14 @@
   border-radius : 5px;
 }
 
-/*.innerimg {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	float: right;
-}*/
+.my_right {
+	bottom: 30px;
+	right: 50px;
+}
+
+.my_div {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	top: -30px;
+}
