@@ -452,11 +452,12 @@ li {
 .slide.cover {
     background: #000;
 }
-.slide.cover img, .slide.cover svg, .slide.cover video, .slide.cover object, .slide.cover canvas, .slide.cover iframe {
+.slide.cover img, .slide.cover svg, .slide.cover video, .slide.cover object, .slide.cover canvas, .slide.cover iframe{
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
+    height : 100%;
 }
 .slide.cover.w img, .slide.cover.w svg, .slide.cover.w video, .slide.cover.w object, .slide.cover.w canvas, .slide.cover.w iframe {
     top: 50%;
@@ -465,6 +466,7 @@ li {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 .slide.cover.h img, .slide.cover.h svg, .slide.cover.h video, .slide.cover.h object, .slide.cover.h canvas, .slide.cover.h iframe {
     left: 50%;
     height: 100%;
@@ -881,3 +883,4 @@ img.fullsize {
 img.fullsize.stretch {
     width: 100%;
 }
+

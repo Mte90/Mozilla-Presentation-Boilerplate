@@ -1,0 +1,5 @@
+.slide.cover h2, .slide.cover p{
+  background-color: #E66000;
+  opacity : .75;
+  border-radius : 5px;
+}

@@ -2,8 +2,8 @@
 ------------------
 Slides list by argument:
 1. cover
-2. numbers (da quanto, quanti club, quanti ambassadors)
-3. Chi sono?
+2. Cos'è?
+3. numbers (da quanto, quanti club, quanti ambassadors)
 4. come diventarlo
 5. rewards
 6. Office Hour e challenges
