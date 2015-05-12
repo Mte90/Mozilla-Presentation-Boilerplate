@@ -10,8 +10,12 @@
 }
 
 .my_div {
-	overflow: hidden;
 	display: flex;
 	justify-content: center;
-	top: -30px;
+}
+
+.my_img {
+	display: block;
+    margin: -60px 0 0 0;
+    padding: 0;
 }
