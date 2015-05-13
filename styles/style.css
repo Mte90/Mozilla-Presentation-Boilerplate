@@ -1,0 +1,36 @@
+.slide.cover h2, .slide.cover p{
+  background-color: #E66000;
+  opacity : .75;
+  border-radius : 5px;
+}
+
+.my_right {
+	bottom: 30px;
+	right: 50px;
+}
+
+.my_div {
+	display: flex;
+	justify-content: center;
+}
+
+.my_img {
+	display: block;
+    padding: 0;
+}
+
+#recognition {
+	display: block;
+	text-align: center;
+	border-bottom: none;
+	margin: -40px 0 0 0;
+}
+
+#microphone {
+    margin: -120px 0 0 0;
+}
+
+#levels {
+	margin: -100px 0 0 0;
+}
+

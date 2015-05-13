@@ -243,26 +243,27 @@ body:after {
 .slide h1, .slide h2 {
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }
-.slide.red {
+
+.red {
     background: url(../images/bg-red-2.png); 
 }
-.slide.blue {
+.blue {
     background: url(../images/bg-blue-2.png); 
 }
-.slide.darkgray {
+.darkgray {
     background: url(../images/bg-darkgrey-2.png); 
 }
-.slide.gradient-nightly {
+.gradient-nightly {
     background: -webkit-linear-gradient(0deg, rgba(0,33,71,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
     background: -ms-linear-gradient(0deg, rgba(0,33,71,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
     background: linear-gradient(0deg, rgba(0,33,71,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
     color:white;
 }
-.slide.gradient-nightly h2, .slide.gradient-nightly a {
+.gradient-nightly h2, .gradient-nightly a {
     color:white;
     text-shadow:none;
 }
-.slide.red a, .slide.blue a, .slide.darkgray a {
+.red a, .blue a, .darkgray a {
     color:#fff;
 }
 @media print {
@@ -451,11 +452,12 @@ li {
 .slide.cover {
     background: #000;
 }
-.slide.cover img, .slide.cover svg, .slide.cover video, .slide.cover object, .slide.cover canvas, .slide.cover iframe {
+.slide.cover img, .slide.cover svg, .slide.cover video, .slide.cover object, .slide.cover canvas, .slide.cover iframe{
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
+    height : 100%;
 }
 .slide.cover.w img, .slide.cover.w svg, .slide.cover.w video, .slide.cover.w object, .slide.cover.w canvas, .slide.cover.w iframe {
     top: 50%;
@@ -464,6 +466,7 @@ li {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 .slide.cover.h img, .slide.cover.h svg, .slide.cover.h video, .slide.cover.h object, .slide.cover.h canvas, .slide.cover.h iframe {
     left: 50%;
     height: 100%;
@@ -558,7 +561,7 @@ li {
     position: absolute;
     clip: rect(0, auto, auto, 0);
     padding: 80px 0 40px 100px;
-    background:#585A5E url(../images/bg-blue-2.png) fixed;
+    background:transparent fixed;
 }
 .list .caption, .list .badge {
     display: block;
@@ -880,3 +883,4 @@ img.fullsize {
 img.fullsize.stretch {
     width: 100%;
 }
+
