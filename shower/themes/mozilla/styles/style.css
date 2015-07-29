@@ -1,8 +1,9 @@
 /*
-	Mozilla theme for Shower presentation template: http://github.com/shower/shower
-	Copyright © 2010–2014 Vadim Makeev, http://pepelsbey.net/
+	Mozilla theme for Shower presentation template: https://github.com/Mte90/Mozilla-Presentation-Boilerplate
+	Copyright © 2010–2015 Vadim Makeev, http://pepelsbey.net/
 	Licensed under MIT license: https://github.com/shower/shower/wiki/License
 	Theme by Chris Heilmann http://christianheilmann.com @codepo8
+	Modified by Daniele Mte90 Scasciafratte http://mte90.net @Mte90net
 */
 
 
@@ -212,7 +213,7 @@ small {
 }
 .caption {
     display: none;
-    margin: 0 0 50px;
+    margin: 0 0 30px;
     color: #fff;
     text-shadow: 0 1px 1px #000;
 }
@@ -274,6 +275,9 @@ small {
         page-break-before: always;
     }
 }
+.slide[data-disable=false] {
+    counter-increment: slide;
+}
 .slide:after {
     position: absolute;
     top: 0;
@@ -281,7 +285,6 @@ small {
     width: 40px;
     height: 35px;
     color: #000;
-    counter-increment: slide;
     content: counter(slide);
     text-align: center;
     font-size: 20px;
@@ -620,7 +623,7 @@ li {
     width: auto;
     height: auto;
     background: 0 0;
-    color: #3C3D40;
+    color: #d4d4d4;
     text-shadow: 0 1px 1px #8D8E90;
     font-weight: 700;
     -webkit-transform-origin: 0 0;
@@ -629,6 +632,7 @@ li {
     -webkit-transform: scale(2);
     -ms-transform: scale(2);
     transform: scale(2);
+    cursor:pointer;
 }
 @media (max-width:1324px) {
     .list .slide: after {
@@ -650,7 +654,7 @@ li {
 }
 }.list .slide:target:after {
     text-shadow: 0 1px 1px rgba(42, 43, 45, .6);
-    color: #4B86C2;
+    color: #fff;
 }
 .list .slide>div:before {
     position: absolute;
@@ -884,3 +888,16 @@ img.fullsize {
 img.fullsize.stretch {
     width: 100%;
 }
+/* Remove button system */
+.remove{
+    z-index:9999;
+    position:absolute;
+}
+.full .remove {
+    display:none;
+}
+.slide[data-disable=true] {
+   pointer-events: none;
+   cursor: default;
+   opacity: 0.5;
+}    
