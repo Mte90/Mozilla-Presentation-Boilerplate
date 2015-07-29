@@ -203,8 +203,12 @@ body:after {
 	right:10px;
 	width:153px;
 	height:41px;
+        z-index:9999;
 	background:url(../images/tab-2.png);
 	content:'';
+}
+small {
+    font-size:12px !important;
 }
 .caption {
     display: none;
@@ -291,9 +295,9 @@ body:after {
     top: 0;
     left: 0;
     overflow: hidden;
-    padding: 45px 120px 0;
-    width: 784px;
-    height: 585px;
+    padding: 40px 100px 0;
+    width: 824px;
+    height: 595px;
 }
 .slide h2 {
     margin: 0 0 37px;
