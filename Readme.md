@@ -12,7 +12,7 @@ Follow the [wiki for the Ribbon style](https://github.com/shower/shower/wiki/Rib
 ##Difference from Shower
 
 * Check the last slide for a frame swing animation (based on codepo8 template)
-* Open Sans Font
+* Fira Font
 * 3 different background for the slide with classes `.red`, `.blue`, `.darkgray`, `.gradient-nightly` (try the demo)
 * Removed inline css
 * Added `.left` and `.right` class
