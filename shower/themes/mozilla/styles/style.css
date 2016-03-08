@@ -272,7 +272,7 @@ li {
     padding: 0;
     background: 0 0;
     white-space: pre;
-    line-height: 2;
+    line-height: 1.2;
 }
 
 .slide pre code:before {
@@ -743,6 +743,8 @@ li {
 }
 .center {
     text-align:center;
+    margin: 0 auto;
+    display:block;
 }
 
 /* Color - https://www.mozilla.org/en-US/styleguide/identity/firefox/color/ */
