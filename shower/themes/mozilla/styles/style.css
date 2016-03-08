@@ -11,13 +11,6 @@ body {
 	counter-reset:paging;
 }
 
-/* Linker */
-@font-face {
-    font-family:'Target Blank';
-    src:url(../fonts/TargetBlank.otf) format('opentype'),
-    url(../fonts/TargetBlank.svg#TargetBlank) format('svg');
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -369,18 +362,33 @@ li {
     -ms-transform: none;
     transform: none;
 }
-.slide.shout h2 {
+.slide.shout h2,.slide.shout h3,.slide.shout h4,.slide.shout h5 {
     position: absolute;
-    top: 45%;
     left: 0;
     width: 100%;
     text-align: center;
-    line-height: 125px;
-    font-size: 100px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     font-family: 'Fira Sans', sans-serif;
+}
+.slide.shout h2 {
+    top: 45%;
+    line-height: 125px;
+    font-size: 100px;
+}
+.slide.shout h3 {
+    top: 50%;
+    line-height: 95px;
+    font-size: 75px;
+}
+.slide.shout h4 {
+    top: 55%;
+    line-height: 85px;
+    font-size: 65px;
+}
+.slide.shout h5 {
+    top: 60%;
 }
 .slide .place {
     position: absolute;
