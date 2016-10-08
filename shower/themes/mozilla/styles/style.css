@@ -90,6 +90,9 @@ small {
     background: #f6f4ec;
     color: #000;
 }
+.slide a {
+    color:#000;
+}
 .slide h1, .slide h2 {
     text-transform: uppercase;
     font-weight: 700;
