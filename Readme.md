@@ -21,7 +21,7 @@ Follow the [wiki for the Ribbon style](https://github.com/shower/shower/wiki/Rib
 * `.opacity` background area
 * `.right`, `.left`, `.bottom` and `.center` alignment class
 * Example image in Mozilla style
-* Remove slide on the fly before launch the slide!
+* Remove slide on the fly before launch the slides!
 
 ##Difference from CodePo8 Presentation Template
 
