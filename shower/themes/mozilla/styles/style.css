@@ -92,6 +92,10 @@ small {
 }
 .slide a {
     color:#000;
+	font-size:26px;
+}
+section.slide {
+	font-size:24px;
 }
 .slide h1, .slide h2 {
     text-transform: uppercase;
@@ -178,7 +182,7 @@ small {
     height: 595px;
 }
 .slide h2 {
-    margin: 0 0 37px;
+    margin: 0 0 30px;
 }
 .slide p {
     margin: 0 0 50px;
@@ -219,6 +223,7 @@ small {
 }
 .slide blockquote {
     font-style: italic;
+	font-size:26px;
 }
 .slide blockquote:before {
     position: absolute;
@@ -342,6 +347,8 @@ small {
     top: 0;
     left: 0;
     z-index: -1;
+	width: 100%;
+	height: 100%;
 }
 .slide.cover.w img, .slide.cover.w svg, .slide.cover.w video, .slide.cover.w object, .slide.cover.w canvas, .slide.cover.w iframe {
     top: 50%;
