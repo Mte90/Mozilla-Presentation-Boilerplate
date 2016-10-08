@@ -66,7 +66,7 @@ a {
     text-decoration:none;
 }
 small {
-    font-size:12px !important;
+    font-size:16px !important;
 }
 .caption {
     display: none;
@@ -100,6 +100,7 @@ section.slide {
 .slide h1, .slide h2 {
     text-transform: uppercase;
     font-weight: 700;
+	line-height:1.1;
 }
 .slide h1, .caption h1 {
     font-size:46px;
@@ -108,8 +109,9 @@ section.slide {
     color:#000;
     font-size:40px;
 }
+.slide.red h2, .slide.lightblue h2, .slide.blue h2, .slide.darkgray h2, .slide.green h2, .slide.lightpurple h2, .slide.purple h2, .slide.orange h2,
 .slide.red, .slide.lightblue, .slide.blue, .slide.darkgray, .slide.green, .slide.lightpurple, .slide.purple, .slide.orange {
-    color: #fff;
+	color:#fff;
 }
 .slide.red {
     background: #c13832;
@@ -191,6 +193,9 @@ section.slide {
 .slide p.note {
     color: #878787;
 }
+.slide p.next {
+    margin: 0 0 10px;
+}
 .slide b, .slide strong {
     font-weight: 700;
 }
@@ -233,7 +238,6 @@ section.slide {
     content: '\201C'
 }
 .slide blockquote+figcaption {
-    margin: -50px 0 50px;
     font-style: italic;
     font-weight: 700;
 }
@@ -716,7 +720,7 @@ section.slide {
 .left {
     float: left;
     position: relative;
-    padding-right: 80px;
+    padding-right: 60px;
 }
 .bottom {
     position: absolute;
