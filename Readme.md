@@ -1,7 +1,8 @@
-#Mozilla Presentation Boilerpalte
+# Mozilla Presentation Boilerpalte
+
 Based on [Shower](https://github.com/shower/shower) and [Codepo8 Presentation template](https://github.com/codepo8/mozilla-presentation-templates)
 
-##How to use
+## How to use
 
 ```
 git clone git@github.com:Mte90/Mozilla-Presentation-Boilerplate.git
@@ -9,7 +10,7 @@ git clone git@github.com:Mte90/Mozilla-Presentation-Boilerplate.git
 
 Follow the [wiki for the Ribbon style](https://github.com/shower/shower/wiki/Ribbon) of Shower that this theme is based on it.  
  
-##Difference from Shower
+## Difference from Shower
 
 * Check the last slide for a frame swing animation (based on codepo8 template)
 * Fira Font
@@ -23,12 +24,12 @@ Follow the [wiki for the Ribbon style](https://github.com/shower/shower/wiki/Rib
 * Example image in Mozilla style
 * Remove slide on the fly before launch the slides!
 
-##Difference from CodePo8 Presentation Template
+## Difference from CodePo8 Presentation Template
 
 * Progressbar added
 * Number of slide added
 * Shower updated
 
-##Alternative
+## Alternative
 
 [Mozilla Theme for Reveal.js](https://github.com/Mte90/mozilla-theme-revealjs/)
